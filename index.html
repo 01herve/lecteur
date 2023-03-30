@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="parent">
+        <div class="semiParent">
+            <button class="triangle" id="triangle">
+            </button>
+            <button class="pause" id="pause">
+            </button>
+<div class="box">
+    <input type="range" id="progress" min="0" max="100" step="0.01" value="0">
+</div>
+<div class="box"></div>
+<input id="volume" class="volume" type="range" min="0" max="1" step="0.1" value="1">
+        </div>
+
+        
+<div class="pass duration">0:00</div>
+<!-- <div class="pass defile wel1"> < </div>
+<div class="pass defile wel2"> > </div> -->
+<div class="pass  bool wel3"> < </div>
+<div class="pass  bool wel4"> > </div>
+            <ul>
+                <li style="--i:3; --clr:#d1d7e0"><a href="#"><span>
+                    
+                    <i class="fa-solid fa-volume-high"></i></span> volume</a> </li>
+                <li style="--i:2;--clr:#b3bfcf "><a href="#"><span>
+                    
+                    <i class="fa-solid fa-bars-progress"></i></span> progress</a> </li>
+                <li style="--i:1;--clr:#4b86b4"><a href="#"><span><i class="fa-regular fa-file-word"></i></span> LISTE</a> </li>
+            </ul>
+
+            <audio id="audioPlayer">
+                <source type="audio/mpeg" >
+              </audio>
+              
+        </div>
+       
+
+    </section>
+      <script src="scripts.js"></script>
+      
+</body>
+</html>
